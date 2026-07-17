@@ -83,10 +83,10 @@ export default function Conclusion({ onRestart }: { onRestart?: () => void }) {
         <motion.div initial={{ opacity: 0, scaleX: 0 }} animate={{ opacity: 1, scaleX: 1 }} transition={{ duration: 1, delay: 1 }} className="mx-auto my-5 h-px bg-gradient-to-r from-transparent via-amber-300/70 to-transparent w-2/3" />
 
         <motion.p initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 1.2 }} className="font-elegant text-amber-50/80 text-balance" style={{ fontSize: "clamp(1rem, 2vw, 1.3rem)", lineHeight: 1.7 }}>
-          May your year be full of sunflowers and soft things, of songs you can't stop humming, of friends who stay, and of small moments that turn into the big memories. You deserve all of it — and then some.
+          May your year be full of sunflowers and cute animals, of songs you can't stop humming, of friends who stay, and of small moments that turn into the big memories. You deserve all of it — and then some.
         </motion.p>
 
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.6, duration: 0.9 }} className="font-script text-amber-200 text-xl sm:text-3xl mt-5">Here's to 25th July, and to you. Always.</motion.p>
+        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.6, duration: 0.9 }} className="font-script text-amber-200 text-xl sm:text-3xl mt-5">Cheers to 25th July, and to you. Always.</motion.p>
 
         {onRestart && (
           <motion.button onClick={onRestart} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.9, duration: 0.7 }} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.96 }}

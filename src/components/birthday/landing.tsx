@@ -79,7 +79,7 @@ export default function Landing() {
           className="font-elegant text-amber-50/80 text-balance"
           style={{ fontSize: "clamp(1.1rem, 2.4vw, 1.6rem)", lineHeight: 1.55 }}
         >
-          A little world made with love to celebrate the day you arrived —
+          A little website made with love to celebrate the day you arrived —
           <span className="font-serif-display italic text-amber-200"> the twenty-fifth of July.</span>
         </motion.p>
 
@@ -90,7 +90,7 @@ export default function Landing() {
           className="mt-8 sm:mt-10 inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass-strong premium-shadow text-amber-100/90 font-elegant tracking-wide text-sm sm:text-base"
         >
           <span className="animate-pulse-glow w-2 h-2 rounded-full bg-amber-400" />
-          Wander through the pages — your story begins
+          Wander through the pages — your story begins.
         </motion.div>
       </div>
     </div>
